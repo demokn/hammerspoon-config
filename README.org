@@ -1,0 +1,7 @@
+刚开始尝试 [[https://www.hammerspoon.org/][HammerSpoon]].
+
+目前仅加了一些切换应用程序的快捷键.
+
+* 致谢
+
+- [[https://github.com/KURANADO2/hammerspoon-kuranado][hammerspoon-kuranado]]
