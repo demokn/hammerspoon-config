@@ -7,6 +7,7 @@ applications = {
    {prefix = termMod, key = "T", message="Alacritty", bundleId="io.alacritty"},
    {prefix = termMod, key = "E", message="Emacs", bundleId="org.gnu.Emacs"},
    {prefix = termMod, key = "V", message="MacVim", bundleId="org.vim.MacVim"},
+   {prefix = termMod, key = "C", message="VSCode", bundleId="com.microsoft.VSCode"},
    {prefix = termMod, key = "P", message="PhpStorm", bundleId="com.jetbrains.phpstorm"},
    {prefix = termMod, key = "D", message="DBeaver", bundleId="org.jkiss.dbeaver.core.product"},
    {prefix = termMod, key = "M", message="Thunderbird", bundleId="org.mozilla.thunderbird"},
