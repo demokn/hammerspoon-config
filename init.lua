@@ -4,7 +4,7 @@ termMod = {"Option", "Shift"}
 applications = {
    {prefix = termMod, key = "F", message="Finder", bundleId="com.apple.finder"},
    {prefix = termMod, key = "B", message="Chrome", bundleId="com.google.Chrome"},
-   {prefix = termMod, key = "T", message="Alacritty", bundleId="io.alacritty"},
+   {prefix = termMod, key = "T", message="Alacritty", bundleId="org.alacritty"},
    {prefix = termMod, key = "E", message="Emacs", bundleId="org.gnu.Emacs"},
    {prefix = termMod, key = "V", message="MacVim", bundleId="org.vim.MacVim"},
    {prefix = termMod, key = "C", message="VSCode", bundleId="com.microsoft.VSCode"},
