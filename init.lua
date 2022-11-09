@@ -9,6 +9,7 @@ applications = {
    {prefix = termMod, key = "V", message="MacVim", bundleId="org.vim.MacVim"},
    {prefix = termMod, key = "C", message="VSCode", bundleId="com.microsoft.VSCode"},
    {prefix = termMod, key = "P", message="PhpStorm", bundleId="com.jetbrains.phpstorm"},
+   {prefix = termMod, key = "I", message="Intellij", bundleId="com.jetbrains.intellij"},
    {prefix = termMod, key = "D", message="DBeaver", bundleId="org.jkiss.dbeaver.core.product"},
    {prefix = termMod, key = "M", message="Thunderbird", bundleId="org.mozilla.thunderbird"},
    {prefix = termMod, key = "W", message="Tecent Document", bundleId="com.tencent.mac.tdappdesktop"}
