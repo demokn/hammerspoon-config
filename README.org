@@ -1,6 +1,35 @@
 刚开始尝试 [[https://www.hammerspoon.org/][HammerSpoon]].
 
+* =HammerSpoon= 是什么
+
+#+begin_quote
+This is a tool for powerful automation of macOS.
+At its core, Hammerspoon is just a bridge between the operating system and a Lua scripting engine.
+What gives Hammerspoon its power is a set of extensions that expose specific pieces of system functionality, to the user.
+#+end_quote
+
+* 配置介绍
+
 目前仅加了一些切换应用程序的快捷键.
+
+* 番外小知识
+
+** 获取应用程序的 =Bundle ID=
+
+在切换应用程序时需要知道应用的 =Bundle ID=.
+有两种方法可以查看
+
+*** 使用 =osascript=
+#+begin_src shell
+  osascript -e 'id of app "Emacs"'
+#+end_src
+
+*** 查看应用程序包的 =info.plist= 文件
+
+1. 打开 =Finder=
+2. 在 =应用程序= 文件夹中，找到你想要查找 =Bundle ID= 的应用程序。 右键点击应用程序图标，选择 =显示包内容（Show Package Contents）=
+3. 在打开的应用程序包中，找到一个名为 =Info.plist= 的文件。这是应用程序的属性列表文件。
+4. 在 =Info.plist= 中，查找一个名为 =CFBundleIdentifier= 的键值对。该键值对的值就是应用程序的 =Bundle ID=
 
 * 致谢
 
